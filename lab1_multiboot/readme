@@ -1,0 +1,9 @@
+compile command:
+
+$make mboot
+
+after this, will generate bin/kernel
+
+we could use "qemu -kernel" to load it
+
+$qemu-system-i386 -kernel ./bin/kernel
